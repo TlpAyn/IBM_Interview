@@ -1,13 +1,14 @@
-package stepDefinitions;
+package StepDefinitions;
 
+import Utilities.GWD;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
-public class MyStepdefs {
+public class LoginSteps {
     @Given("Navigate to IBM HomePages")
     public void navigateToIBMHomePages() {
-        
+        GWD.getDriver().get("");
     }
 
     @And("Click members button")
