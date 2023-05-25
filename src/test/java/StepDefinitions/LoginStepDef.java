@@ -6,7 +6,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
-public class MyStepdefs2 {
+public class LoginStepDef {
 DialogContent dc = new DialogContent();
     @Given("Navigate to IBM HomePages")
     public void navigateToIBMHomePages() {
@@ -17,7 +17,6 @@ DialogContent dc = new DialogContent();
     @And("Click members button")
     public void clickMembersButton() {
         dc.clickFunction(dc.userBtn);
-
 
     }
 
